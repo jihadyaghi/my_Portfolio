@@ -42,7 +42,8 @@ return(
                 </div>
             </div>
             <div className="home_card">
-                <div className="mini_row">
+                <div className="mini">
+                    <div className="mini_row">
                     <span className="mini_label">Location</span>
                     <span className="mini_value">Lebanon</span>
                 </div>
@@ -54,6 +55,8 @@ return(
                     <span className="mini_label">Email</span>
                     <span className="mini_value">jihadyaghie@gmail.com</span>
                 </div>
+                </div>
+                
             </div>
             <div className="stats">
                 <div className="stat">

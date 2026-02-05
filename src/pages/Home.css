@@ -61,5 +61,111 @@
     font-weight: 700;
 }
 .home_summary{
-    
+    margin-top: 14px;
+    color: var(--muted);
+    line-height: 1.7;
+    font-size: 15.5px;
+    max-width: 60ch;
+}
+.home_cta{
+    margin-top: 22px;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+.btn{
+    border-radius: 999px;
+    padding: 12px 18px;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 14px;
+    color: white;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+.btn_primary{
+    background: linear-gradient(135deg, var(--orange), var(--orange2));
+     border: 2px solid rgba(255, 140, 0, 0.65);
+    box-shadow: 0 10px 24px rgba(255, 140, 0, 0.22);
+}
+.btn_primary:hover{
+    transform: translate(-2px);
+    background: rgba(255, 140, 0, 0.12) ;
+}
+.btn_ghost{
+    border: 2px solid rgba(255, 140, 0, 0.65);
+    background: linear-gradient(135deg, var(--orange), var(--orange2));
+}
+.btn_ghost:hover{
+    transform: translate(-2px);
+    background: rgba(255, 140, 0, 0.12) ;
+}
+.home_highlights{
+    margin-top: 18px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.chip{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 12px;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.04);
+    border: 1px solid var(--border);
+    font-weight: 700;
+    font-size: 13px;
+}
+.dot{
+    width: 8px;
+    height: 8px;
+    border-radius: 999px;
+    background: linear-gradient(135deg, var(--orange), var(--orange2))
+}
+.home_card{
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid var(--border);
+    border-radius: 22px;
+    padding: 18px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(10px);
+}
+.mini{
+margin-top: 12px;
+background: rgba(0, 0, 0, 0.035);
+border: 1px solid var(--border);
+border-radius: 16px;
+padding: 12px;
+}
+.mini_row{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 8px 6px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+.mini_row:last-child{
+    border-bottom: none;
+}
+.mini_label{
+    color: #666;
+    font-weight: 800;
+    font-size: 12px;
+}
+.mini_value{
+    color: #222;
+    font-weight: 800;
+    font-size: 12px;
+}
+.stats{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin-top: 12px;
+}
+.stat{
+    background: rgba(255, 140, 0, 0.11);
+    border-radius: 16px;
+    padding: 12px 10px;
+    text-align: center;
 }
