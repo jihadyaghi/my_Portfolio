@@ -14,10 +14,10 @@ return(
         <nav className="nav_Links">
             <a className="nav_link" href="#about">About</a>
             <a  className="nav_link" href="#skills">Skills</a>
-            <a className="nav_link" href="#Porjects">Projects</a>
+            <a className="nav_link" href="#projects">Projects</a>
             <a className="nav_link" href="#contact">Contact</a>
         </nav>
-        <a className="cta" href="/" target="_blank" rel="noreferrer">Download CV</a>
+        <a className="cta" href="/cv/Jihad_Yaghi.pdf" target="_blank" rel="noreferrer">Download CV</a>
     </div>
  </header>
 );

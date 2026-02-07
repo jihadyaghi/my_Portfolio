@@ -123,9 +123,10 @@ return(
                     <div className="contact_info">
                         <p className="sec_text">Want to work together? Send me a message.</p>
                         <div className="contact_Links">
-                    <a href="2">jihadyaghie@gmail.com</a>
-                    <a href="2" target="_blank" rel="noreferrer">GitHub</a>
-                    <a href="2" target="_blank" rel="noreferrer">LinkedIn</a>
+                    <a href="mailto:jihadyaghie@gmail.com">jihadyaghie@gmail.com</a>
+                    <a href="https://wa.me/96181670212" target="_blank" rel="noreferrer">+961 81670212</a>
+                    <a href="https://github.com/jihadyaghi" target="_blank" rel="noreferrer">GitHub</a>
+                    <a href="https://www.linkedin.com/jihadyaghie" target="_blank" rel="noreferrer">LinkedIn</a>
                 </div>
                 </div>
                 <form className="form" onSubmit={(e)=>e.preventDefault()}>
